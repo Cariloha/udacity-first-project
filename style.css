@@ -145,6 +145,10 @@ button {
     margin-top: 3.2rem;
 }
 
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
 .mt-48{
     margin-top: 4.8rem;
 }
@@ -279,10 +283,6 @@ button {
 .card {
     flex-basis: 100%;
     position: relative;
-}
-
-.custom-position {
-    object-position: -180px;
 }
 
 .card-img {
