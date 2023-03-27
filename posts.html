@@ -14,7 +14,6 @@
             rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
         <title>Blog</title>
     </head>
 
@@ -24,9 +23,10 @@
                 <a href="/index.html" class="navbar-logo">
                     <img class="navbar-logo-img" src="./assets/img/Berty's-blog-logo.png" alt="logo">
                 </a>
+                <div class="navbar-menu">
                     <ul class="navbar-nav">
                         <li class="navbar-item">
-                            <a class="navbar-link" href="./posts.html">Posts</a>
+                            <a class="navbar-link active" href="./posts.html">Posts</a>
                         </li>
                         <li class="navbar-item">
                             <a class="navbar-link" href="./about-me.html">About me</a>
@@ -34,33 +34,29 @@
                         <li class="navbar-item">
                             <a class="navbar-link" href="./resources.html">Resources</a>
                         </li>
-
                     </ul>
+                </div>
             </div>
 
-            <header class="hero-bg hero-bg--home">
+            <header class="hero-bg hero-bg--posts">
             </header>
 
             <section class="content">
                 <div class="container mt-48">
-                    <h1>Welcome</h1>
-                    <p>Hello, this is my personal blog and I wanted to take the opportunity to talk about my biggest
-                        passion: football soccer. In this website you will find ports of my favourite players from
-                        across
-                        the world, the international tournaments I follow, and news about women's soccer.</p>
-                    <p>If you want to know more about me you can click <a href="./about-me.html">here.</a></p>
-                    <p>For more information about this beautiful sport I will share to you some usefull resources <a
-                            href="./resources.html">here.</a> </p>
+                    <h1>Posts</h1>
+
                 </div>
                 <div class="container mt-48 mb-48">
-                    <h2>Latest Posts</h2>
                     <div class="flex-container-wrap gap-16 flex-center-center">
                         <div class="card">
                             <div class="card-img">
-                                <img src="./assets/img/lizbeth-ovalle-tigres-femenil_crop1631295655310.jpg_423682103.webp" alt="lizbeth-ovalle-img">
+                                <img src="./assets/img/lizbeth-ovalle-tigres-femenil_crop1631295655310.jpg_423682103.webp"
+                                    alt="lizbeth-ovalle-img">
                             </div>
                             <div class="card-info">
-                                <h3 class="to-white">My top 5 players</h3>
+                                <a href="./single-posts/top-three.html">
+                                    <h3 class="to-white">My top 5 players</h3>
+                                </a>
                             </div>
                         </div>
                         <div class="card">
@@ -70,7 +66,9 @@
                                     alt="girls-team-illustration-freepik">
                             </div>
                             <div class="card-info">
-                                <h3 class="to-white">Tournaments I follow around the world</h3>
+                                <a href="./single-posts/tournaments.html">
+                                    <h3 class="to-white">Tournaments I follow around the world</h3>
+                                </a>
                             </div>
                         </div>
                         <div class="card">
@@ -79,10 +77,37 @@
                                     alt="tigres-logo">
                             </div>
                             <div class="card-info">
-                                <h3 class="to-white">My favorite team from México</h3>
+                                <a href="https://www.tigres.com.mx/en/tigres-femenil/team/" target="_blank">
+                                    <h3 class="to-white">My favorite team from México <i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/img/GOEQUAL10-scaled(1).jpg" alt="marta-img">
+                            </div>
+                            <div class="card-info">
+                                <a
+                                    href="https://www.fifa.com/fifaplus/en/articles/everything-you-need-to-know-about-about-the-fifa-womens-world-cup-2023">
+                                    <h3 class="to-white">#GoEqual <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="./assets/img/2856798.jpg" alt="sully-and-nayelli-img">
+                            </div>
+                            <div class="card-info">
+                                <a href="https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_Femenil_de_M%C3%A9xico">
+                                    <h3 class="to-white">About Liga BBVA femenil <i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
@@ -103,6 +128,7 @@
                         </div>
                     </div>
                 </div>
+
             </footer>
         </main>
     </body>
