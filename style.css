@@ -286,7 +286,6 @@ button {
 }
 
 .card-img {
-    border: solid 1px var(--cardBg);
     border-radius: 25px;
 }
 
@@ -320,7 +319,7 @@ button {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     width: 100%;
-    border: solid 1px var(--cardBg);
+    border-top: solid 1px var(--cardBg);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
