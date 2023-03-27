@@ -485,6 +485,11 @@ button {
     }
 }
 
+.league-img {
+    border-radius: 10px;
+    width: 400px;
+}
+
 
 /* FOOTER */
 
