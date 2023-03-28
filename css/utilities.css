@@ -1,0 +1,89 @@
+/* UTILITIES */
+
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px 300px auto 310px;
+    grid-template-areas: 
+    "menu"
+    "hero"
+    "content"
+    "footer";
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .main-layout {
+        grid-template-rows: 110px 300px auto 180px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-layout {
+        grid-template-rows: 110px 500px auto 180px;
+    }
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-32 {
+    margin-top: 3.2rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.mt-48{
+    margin-top: 4.8rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.posts-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px 300px auto 310px;
+    grid-template-areas: 
+    "menu"
+    "hero"
+    "content"
+    "footer";
+    overflow: hidden;
+}
+
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.to-white {
+    color: var(--white);
+}
+
+.content {
+    grid-area: content;
+}
+
+.underline {
+    text-decoration: underline;
+}

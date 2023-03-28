@@ -1,0 +1,32 @@
+/* NAVBAR */
+
+.navbar {
+    grid-area: menu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo-img {
+    width: 100px;
+    object-position: center;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-link.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
