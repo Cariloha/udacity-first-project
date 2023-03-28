@@ -5,7 +5,7 @@
 
     /*Colors*/
     --titleH1: #3a3238;
-    --titleH2: #d282a6;
+    --titleH2: #FF499E;
     --footer : #e8b4bc;
     --anchor: #6e4555;
     --cardBg: #A2ABB5;
@@ -94,7 +94,7 @@ img {
 
 button {
     background-color: var(--button);
-    border: none;
+    border: 2px solid var(--button);
     box-shadow: none;
     width: 120px;
     height: 40px;
@@ -103,6 +103,13 @@ button {
     font-weight: 400;
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--footer);
+    color: var(--button);
+    border: 2px solid (--button);
+    transition: all 0.2s ease-in;
 }
 
 /* UTILITIES */
@@ -311,7 +318,6 @@ button {
 }
 
 .card-info {
-    margin-top: 0.8rem;
     text-align: center;
     position: absolute;
     bottom: 0;
