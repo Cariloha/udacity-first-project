@@ -44,9 +44,10 @@ h1 {
     font-size: 3.2rem;
     margin-bottom: 6.4rem;
     color: var(--titleH1);
+    text-decoration: underline;
 }
 
-h2{
+h2 {
     font-size: 2.4rem;
     margin-bottom: 3.2rem;
     color: var(--titleH2);
@@ -58,7 +59,7 @@ h3 {
     color: var(--black);
 }
 
-p {
+p, blockquote {
     margin-bottom: 1.6rem;
     font-family: var(--textFont);
     font-weight: 400;
